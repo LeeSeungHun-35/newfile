@@ -52,7 +52,5 @@
 
 .Footer {
   background-color: cornflowerblue;
-  display: flex; 
-  justify-content: center;
-  gap: 20%;
+
 }

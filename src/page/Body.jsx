@@ -1,9 +1,8 @@
 import React from 'react'
-import './Body.css'
 
 const Body = () => {
   return (
-    <div className='Main'>Body</div>
+    <div>Body</div>
   )
 }
 

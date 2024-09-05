@@ -1,20 +1,22 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
-import Body from './page/Body';
-import Header from './page/Header';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Main from './page/Main';
+import Header from './header/Header';
+import Footer from './footer/Footer';
+import Fir from './page/Fir';
+import Sec from './page/Sec'; 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Router>
-        <Header /> {/* Header를 Routes 밖에 위치시킵니다 */}
-
-        <Routes>
-          <Route path="/" element={<Body />} /> {/* Body를 Route로 래핑합니다 */}
-          {/* 다른 Route 컴포넌트들도 여기에 추가할 수 있습니다 */}
-        </Routes>
-      </Router>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Main />} />
+        <Route path='/fir' element={<Fir />} />
+        <Route path='/sec' element={<Sec />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
