@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+
 .Main {
-    background-color: blanchedalmond;
+    background-color: rgb(26, 0, 22);
     height: 850px;
+}
+
+.Network1, .Network2, .Network3 {
+    color: white;
+    height: 300px;
 }

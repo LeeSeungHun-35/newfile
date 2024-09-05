@@ -2,7 +2,9 @@
 import React from 'react';
 
 const Sec = () => {
-  return <div>Sec Page</div>;
+  return <div className='Analys'>
+      기법 분석
+    </div>;
 }
 
 export default Sec;

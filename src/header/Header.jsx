@@ -6,9 +6,10 @@ const Header = () => {
   return (
     <div className="Header"> 
       <nav> 
-        <Link to='/'>Home</Link>
-        <Link to='/fir'>Fir</Link>
-        <Link to='/sec'>Sec</Link>
+        
+        <Link to='/'>네트워크 해킹 </Link>
+        <Link to='/fir'>공격 기법</Link>
+        <Link to='/sec'>보안 분석</Link>
       </nav>
     </div>
   );

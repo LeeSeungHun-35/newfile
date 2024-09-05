@@ -3,20 +3,25 @@
     justify-content: center; 
     align-items: center; 
     padding: 10px;
-    background-color: #0080ff;
+    background-color: #1e1e1e; 
+    border-bottom: 2px solid #00ff00; 
+    font-family: 'Courier New', Courier, monospace; 
+    
 }
 
 .Header nav {
     display: flex; 
-    gap: 15px;
+    gap: 30px;
 }
 
 .Header a {
     text-decoration: none; 
-    color: #000000;
-    font-size: 16px; 
+    color: #00ff00; 
+    font-size: 18px; 
+    
 }
 
 .Header a:hover {
     text-decoration: underline; 
+    color: #ff0000; 
 }

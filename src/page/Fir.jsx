@@ -3,7 +3,7 @@ import React from 'react';
 
 const Fir = () => {
   return <div className='Fir'>
-    Fir Page
+    공격 기법 소개
   </div>;
 }
 
