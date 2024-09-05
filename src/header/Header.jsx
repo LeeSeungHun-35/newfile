@@ -7,8 +7,8 @@ const Header = () => {
     <div className="Header"> 
       <nav> 
         <Link to='/'>Syn </Link>
-        <Link to='/fir'>공격 기법</Link>
-        <Link to='/sec'>보안 분석</Link>
+        <Link to='/fir'>UDP</Link>
+        <Link to='/sec'>ICMP</Link>
       </nav>
     </div>
   );

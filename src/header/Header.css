@@ -1,27 +1,30 @@
 .Header {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
-    background-color: #1e1e1e; 
-    border-bottom: 2px solid #00ff00; 
-    font-family: 'Courier New', Courier, monospace; 
-    
+    background-color: #1e1e1e;
+    border-bottom: 2px solid #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .Header nav {
-    display: flex; 
+    font-family: "Black And White Picture", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
     gap: 30px;
 }
 
 .Header a {
-    text-decoration: none; 
-    color: #00ff00; 
-    font-size: 18px; 
-    
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+
 }
 
 .Header a:hover {
-    text-decoration: underline; 
-    color: #ff0000; 
+    text-decoration: underline;
+    color: #ff0000;
 }

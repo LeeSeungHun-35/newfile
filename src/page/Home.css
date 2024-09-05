@@ -1,6 +1,6 @@
 .Main {
     background-color: #1a000a;
-    height: 850px;
+    height: 100%;
     padding: 20px;
     font-family: 'Arial', sans-serif;
 }
@@ -10,9 +10,10 @@
     color: white;
     border-radius: 10px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
 
 .Title {
     text-align: center;
@@ -24,13 +25,30 @@
 }
 
 .cont {
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
 
-.img1,.img2 {
+.img {
+    background: url('../img/tcp1.png') no-repeat center center;
+    background-size: cover;
+    width: 220px;
+    height: 160px;
+    border-radius: 8px;
+}
+.img1 {
+    background: url('../img/Tcp_synflood.png') no-repeat center center;
+    background-size: cover;
+    width: 220px;
+    height: 276px;
+    border-radius: 8px;
+}
+
+
+.img2 {
     background: url('../img/syn.png') no-repeat center center;
     background-size: cover;
     width: 922px;
