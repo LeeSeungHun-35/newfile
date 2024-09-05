@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="Header"> 
       <nav> 
-        <Link to='/'>DDoS </Link>
+        <Link to='/'>Syn </Link>
         <Link to='/fir'>공격 기법</Link>
         <Link to='/sec'>보안 분석</Link>
       </nav>
