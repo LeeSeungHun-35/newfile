@@ -1,22 +1,22 @@
 .Header {
-    display: flex; /* Flexbox를 사용하여 가로 배치 */
-    justify-content: center; /* 중앙 정렬 */
-    align-items: center; /* 수직 중앙 정렬 */
-    padding: 10px; /* 여백 추가 (선택 사항) */
-    background-color: #f8f9fa; /* 배경 색상 추가 (선택 사항) */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px;
+    background-color: #0080ff;
 }
 
 .Header nav {
-    display: flex; /* Flexbox를 사용하여 링크들을 가로로 배치 */
-    gap: 15px; /* 링크들 사이의 간격 조절 */
+    display: flex; 
+    gap: 15px;
 }
 
 .Header a {
-    text-decoration: none; /* 링크 밑줄 제거 */
-    color: #007bff; /* 링크 색상 */
-    font-size: 16px; /* 링크 폰트 사이즈 조절 */
+    text-decoration: none; 
+    color: #000000;
+    font-size: 16px; 
 }
 
 .Header a:hover {
-    text-decoration: underline; /* 링크 호버 시 밑줄 추가 */
+    text-decoration: underline; 
 }

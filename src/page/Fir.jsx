@@ -2,7 +2,9 @@
 import React from 'react';
 
 const Fir = () => {
-  return <div>Fir Page</div>;
+  return <div className='Fir'>
+    Fir Page
+  </div>;
 }
 
 export default Fir;
