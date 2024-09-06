@@ -4,7 +4,7 @@ import './Home.css';
 const sections = [
     {
         id: 1,
-        title: '3-Way Handshke와 Syn Flooding',
+        title: '3-Way Handshake와 Syn Flooding',
         content: [
             { type: 'image', className: 'img' },
             {
