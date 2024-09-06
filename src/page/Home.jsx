@@ -40,7 +40,25 @@ const sections = [
         title: 'Syn Flooding 공격 패킷분석',
         content: [
             { type: 'image', className: 'img2' },
-            { type: 'text', content: '내용 ㄻㄹㄴㅁㄹㄴㄹㄹ' }
+            {
+                type: 'text', content: <div>
+                    공격자(빨간색)
+                    <div className='smaller'>
+                        <li>IP를 스푸핑하며 특정 IP로 패킷을 계속 날리는 것을 볼 수 있다.</li>
+                        <li>공격자는 0초에서 시작하여 750개의 SYN 패킷을 0.002307초 만에 서버로 전송했다는 뜻이다.</li>
+                        <li>이렇게 많은 IP를 사용하여 본인의 IP를 숨기고 추척을 어렵게 한다.</li>
+                    </div>
+                    피해서버(파란색)
+
+                    패킷의 상태(초록색)
+                    <div className='smaller'>
+                        <li>IP를 스푸핑하며 특정 IP로 패킷을 계속 날리는 것을 볼 수 있다.</li>
+                        <li>공격자는 0초에서 시작하여 750개의 SYN 패킷을 0.002307초 만에 서버로 전송했다는 뜻이다.</li>
+                        <li>이렇게 많은 IP를 사용하여 본인의 IP를 숨기고 추척을 어렵게 한다.</li>
+                    </div>
+
+                </div>
+            }
         ]
     },
 
