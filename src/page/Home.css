@@ -68,3 +68,14 @@
 .smaller {
     font-size: 14px;
 }
+.summa{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+.ttitle {
+    text-align: center;
+}
+.explain {
+   font-size: 15px;
+   padding: 20px;
+}

@@ -8,7 +8,7 @@ const Header = () => {
       <nav> 
         <Link to='/'>Syn </Link>
         <Link to='/fir'>UDP</Link>
-        <Link to='/sec'>ICMP</Link>
+        <Link to='/sec'>용어정리</Link>
       </nav>
     </div>
   );
