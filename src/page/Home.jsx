@@ -48,9 +48,6 @@ const sections = [
                         <li>공격자는 0초에서 시작하여 750개의 SYN 패킷을 0.002307초 만에 서버로 전송했다.</li>
                         <li>공격자는 여러 IP를 사용하여 본인의 진짜 IP를 숨기고, 추적을 어렵게 만든다.</li>
                     </div><br />
-                    피해 서버(파란색)
-                    <div className='smaller'>
-                    </div><br />
                     패킷의 상태(초록색)
                     <div className='smaller'>
 
@@ -62,7 +59,10 @@ const sections = [
                     <div className='summa'>
                         <div className='ttitle'>요약</div>
                         <div className='explain'>
-                            <li>공격자는 IP 스푸핑을 통해 다양한 IP 주소로 짧은 시간 안에 많은 SYN 패킷을</li>서버에 전송하여 자신의 IP를 숨기고 추적을 어렵게 만든다.<br /> 또한, 특정 포트를 변경하면서 공격을 수행하여 반복적인 SYN 요청이 특정 포트에 집중되지 않도록 합니다. 예를 들어, 80번 포트는 HTTP 웹 서버를 대상으로 합니다. 모든 패킷의 Seq=0, Win=0, Len=0 설정은 공격자가 비정상적인 연결 요청을 보내 서버 자원을 소모시키려는 의도
+                            <li>공격자는 스푸핑으로 다양한 IP 주소로 많은 SYN 패킷을 전송해서 본인 IP를 숨기고 추적을 어렵게 만든다.</li>
+                            <li>또한, 특정 포트를 변경하면서 공격을 수행하여 반복적인 SYN 요청이 특정 포트에 집중되지 않도록 한다.</li>
+                            <li>80번 포트는 HTTP 웹 서버를 대상으로 한다.</li> 
+                            <li>모든 패킷의 Seq=0, Win=0, Len=0은 공격자가 비정상적인 요청으로 서버 자원을 소모시키려는 의도이다.</li>
                         </div>
                     </div>
                 </div>
@@ -74,12 +74,11 @@ const sections = [
         id: 3,
         title: '대응 방안',
         content: [
-            { type: 'text', content: '서버 구간에서의 설정 방안' },
-            { type: 'text', content: '차단 장비에서의 설정 방안' }
+            { type: 'text', content: '서버 구간에서의 설정' },
+            { type: 'text', content: '차단 장비에서의 설정' }
         ]
     }
 ];
-
 const Main = () => {
     return (
         <div className='Main'>

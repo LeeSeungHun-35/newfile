@@ -1,13 +1,13 @@
 .Main {
-    background-image: url('../img/binary_code.jpg');
+    background-image: url('../img/network.jpg');
     height: 100%;
     padding: 20px;
     font-family: 'Arial', sans-serif;
 }
 
 .Network1,.Network2,.Network3 {
-    background-color: #333;
-    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 40px;
@@ -67,15 +67,18 @@
 
 .smaller {
     font-size: 14px;
+  
 }
 .summa{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: black;
     border-radius: 50px;
 }
 .ttitle {
     text-align: center;
+    
 }
 .explain {
    font-size: 15px;
    padding: 20px;
 }
+
