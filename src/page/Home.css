@@ -1,5 +1,5 @@
 .Main {
-    background-color: #1a000a;
+    background-image: url('../img/binary_code.jpg');
     height: 100%;
     padding: 20px;
     font-family: 'Arial', sans-serif;
@@ -46,7 +46,6 @@
     height: 276px;
     border-radius: 8px;
 }
-
 
 .img2 {
     background: url('../img/syn.png') no-repeat center center;
