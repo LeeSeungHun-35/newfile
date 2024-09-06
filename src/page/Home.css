@@ -65,3 +65,7 @@
 .Content {
     font-size: 1.2em;
 }
+
+.smaller {
+    font-size: 14px;
+}
