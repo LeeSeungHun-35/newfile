@@ -75,17 +75,18 @@ const sections = [
         title: '대응 방안',
         content: [
             { type: 'text', content: <div className='Server'>
-                서버 구간 설정
+                서버 구간 설정<br/><br/>
                 <div className='smaller'>
-                <li>Backlog-queue 크기 변경 : 조금이라도 더 크게 설정해준다.(크다고 무조건 좋은 것은 아님)</li>
+                <li>Backlog-queue 크기 변경 : 조금이라도 더 크게 설정해준다.(크다고 무조건 좋은 것은 아님)</li><br/>
                 <li>syncookies 기능 활성화 : syncookies 사용 시, SYN을 수신한 서버는 접속 관련 정보를 SYN-ACK에 포함하여 전송 후 <br/>backlog-queue에 정보를 저장하지 않아서 SYN Flooding에서 발생하는 backlog-queue의 취약점 보완 가능하다.</li>
                 </div>
 
             </div> },
             { type: 'text', content: <div className='firewall'>
+                차단 장비 설정<br/><br/>
                 <div className='smaller'>
-                <li>위조된 IP 차단 = IP가 무작위로 위조되다 보면 공인 IP로 사용될 수 없는 IP, 존재할 수 없는 형식의 비정상 IP의 형식으로도 위조가 되는데, 이런 IP들은 Anti-DDoS 장비에서 제공되는 비정상 IP차단 기능을 이용하여 대응할 수 있다.</li>
-                <li>비정상 크기의 SYN 패킷 차단 = 정상적인 SYN 패킷은 60 ~ 80 바이트 정도의 크기이며, OPTION 해더의 크기에 따라 SYN 패킷의 크기는 달라질 수 있다. 오탐 가능성을 고려하여 128바이트 정도 이상의 SYN패킷은 drop하도록 라우터나 차단 장비에서 설정할 수 있다.</li>
+                <li>위조된 IP 차단 = IP가 무작위로 위조되다 보면 공인 IP로 사용될 수 없는 IP, 존재할 수 없는 형식의 비정상 IP의 형식으로도 위조가 되는데, 이런 IP들은 Anti-DDoS 장비에서 제공되는 비정상 IP차단 기능을 이용하여 대응할 수 있다.</li><br/>
+                <li>비정상 크기의 SYN 패킷 차단 = 정상적인 SYN 패킷은 60 ~ 80 바이트 정도의 크기이고, OPTION 해더 크기에 따라 SYN 패킷의 크기는 달라질 수 있다. 오탐 가능성을 고려해서 128바이트 정도 이상의 SYN패킷은 drop하도록 라우터나 차단 장비에서 설정할 수 있다.</li>
                 </div>
             </div> }
         ]
