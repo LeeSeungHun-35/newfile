@@ -8,7 +8,6 @@
 .Network1,.Network2,.Network3 {
     background: rgba(0, 0, 0, 0.8);
     color: rgb(255, 255, 255);
-    border-radius: 10px;
     margin-bottom: 20px;
     padding: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);

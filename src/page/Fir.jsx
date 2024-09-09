@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Fir.css';
 
 const Fir = () => {
+    const [expandedLayer, setExpandedLayer] = useState(null);
     const layers = [
         { 
             name: 'L7. 응용 계층', 
@@ -54,16 +55,24 @@ const Fir = () => {
         },
     ];
 
+    const handleLayerClick = (index) => {
+        setExpandedLayer(expandedLayer === index ? null : index);
+    };
+
     return (
         <div className='Fir'>
             <div className='OSI'>
                 {layers.map((layer, index) => (
-                    <div key={index} className='Layer'>
+                    <div key={index} className='Layer' onClick={() => handleLayerClick(index)}>
                         <h2>{layer.name}</h2>
-                        <p>{layer.description}</p>
-                        <p><strong>관련 장비:</strong> {layer.device}</p>
-                        <p><strong>예시:</strong> {layer.example}</p>
-                        <p><strong>프로토콜:</strong> {layer.protocol}</p>
+                        {expandedLayer === index && (
+                            <div>
+                                <p>{layer.description}</p>
+                                <p><strong>관련 장비:</strong> {layer.device}</p>
+                                <p><strong>예시:</strong> {layer.example}</p>
+                                <p><strong>프로토콜:</strong> {layer.protocol}</p>
+                            </div>
+                        )}
                     </div>
                 ))}
             </div>

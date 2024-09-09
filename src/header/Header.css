@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     background-color: #1e1e1e;
     border-bottom: 2px solid #00ff00;
     font-family: 'Courier New', Courier, monospace;
@@ -14,7 +14,7 @@
     font-weight: 400;
     font-style: normal;
     display: flex;
-    gap: 30px;
+    gap: 80px;
 }
 
 .Header a {
