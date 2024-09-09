@@ -7,7 +7,7 @@ const Header = () => {
     <div className="Header"> 
       <nav> 
         <Link to='/'>Syn </Link>
-        <Link to='/fir'>UDP</Link>
+        <Link to='/fir'>OSI 7 Layer</Link>
         <Link to='/sec'>용어정리</Link>
       </nav>
     </div>
