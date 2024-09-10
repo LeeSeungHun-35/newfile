@@ -9,7 +9,7 @@ const sections = [
             { type: 'image', className: 'img' },
             {
                 type: 'text', content: <div>
-                    TCP 통신을 위해 서로 준비가 되었는지를 확인하는 3단계 절차<br />
+                    TCP 통신을 위해 서로 준비가 되었는지를 확인하는 3단계 절차<br /><br />
                     <div className='smaller'>1. Client는 Server에게 SYN을 전송한다.<br />
                         2. SYN을 전송받은 Server는 SYN을 정상적으로 수신하였다는 뜻으로 SYN-ACK을 전송한다<br />
                         3. Client는 SYN-ACK을 정상 수신했다는 의미로 ACK을 Server에게 전송 후 연결이 된다<br />
@@ -92,6 +92,8 @@ const sections = [
         ]
     }
 ];
+
+
 const Main = () => {
     return (
         <div className='Main'>

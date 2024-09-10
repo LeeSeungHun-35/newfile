@@ -33,7 +33,7 @@ const Fir = () => {
             protocol: 'TCP, UDP'
         },
         { 
-            name: 'L3. 네트워크 계층', 
+            name: <div className='L3'>L3. 네트워크 계층</div>, 
             description: '데이터 패킷의 라우팅과 전달을 처리', 
             device: '라우터',
             example: '패킷 경로 결정',
