@@ -1,0 +1,39 @@
+/* Sec.css */
+.Analys {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Analys h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .word {
+    width: 70%;
+    margin: 20px ;
+  }
+  
+  .word th,
+  .word td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .word th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .word tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .word tr:hover {
+    background-color: #ddd;
+  }
