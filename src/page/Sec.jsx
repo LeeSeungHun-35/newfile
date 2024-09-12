@@ -21,7 +21,7 @@ const Sec = () => {
         <thead>
           <tr>
             <th>용어</th>
-            <th>뜻</th>
+            <th>의미</th>
           </tr>
         </thead>
         <tbody>

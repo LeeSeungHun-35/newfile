@@ -2,63 +2,64 @@
     font-family: 'Arial', sans-serif;
     margin: 20px;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-image: url('../img/network.jpg');
+    background-size: cover; 
+    background-position: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .word {
+    color: white;
+    
+}
+
+.word {
     width: 70%;
-    border-collapse: collapse;
     margin-top: 15px;
-  }
-  
-  .word th, .word td {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 5px;
+}
+
+.word th, .word td {
     padding: 12px;
     text-align: center;
     border-bottom: 1px solid #ddd;
+}
 
-  }
-  
-  .word th {
+.word th {
     background-color: #4CAF50;
     color: white;
     font-size: 18px;
-    width:10%
-  }
-  
-  .word td {
+    width: 10%;
+}
+
+.word td {
     font-size: 16px;
     color: #474747;
-  }
-  
-  .word tr:nth-child(even) {
+}
+
+.word tr:nth-child(even) {
     background-color: #f2f2f2;
-  }
-  
-  .word tr:hover {
+}
+
+.word tr:hover {
     background-color: #ddd;
-  }
-  
-  .word td:first-child {
+}
+
+.word td:first-child {
     font-weight: bold;
     color: #333;
-  }
-  
-  .word th, .word td {
+}
+
+.word th, .word td {
     border: 1px solid #ddd;
     border-radius: 5px;
-  }
-  
+}
 
-
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .word {
       font-size: 14px;
     }
-  }
-  
+}
