@@ -32,7 +32,7 @@
 }
 
 .Layer p strong {
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .Layer {
@@ -45,8 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%; 
+    width: 100%;
     margin: 20px 0;
     padding: 10px;
-
 }

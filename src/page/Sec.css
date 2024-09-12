@@ -1,33 +1,45 @@
 /* Sec.css */
 .Analys {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
     padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 8px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 85vh;
+    display: flex;
   }
   
-  .Analys h2 {
-    font-size: 1.5rem;
+  .Analys h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
     color: #333;
-    margin-bottom: 20px;
+    
   }
   
   .word {
     width: 70%;
-    margin: 20px ;
+    border-collapse: collapse;
+    margin-top: 15px;
   }
   
-  .word th,
-  .word td {
+  .word th, .word td {
     padding: 12px;
-    border: 1px solid #ddd;
     text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 30%;
   }
   
   .word th {
     background-color: #4CAF50;
     color: white;
-    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .word td {
+    font-size: 16px;
+    color: #555;
   }
   
   .word tr:nth-child(even) {
@@ -37,3 +49,25 @@
   .word tr:hover {
     background-color: #ddd;
   }
+  
+  .word td:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .word th, .word td {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .tbody tr {
+    height: 50px;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .word {
+      font-size: 14px;
+    }
+  }
+  

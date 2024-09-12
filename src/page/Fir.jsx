@@ -19,7 +19,6 @@ const Fir = () => {
             example: '데이터 압축',
             protocol: 'SSL/TLS'
         },
-
         {
             name: 'L5. 세션 계층',
             description: '세션을 관리하고 컴퓨터 간 대화를 제어',
@@ -78,9 +77,9 @@ const Fir = () => {
                                     <p><strong>관련 장비:</strong> {layer.device}</p>
                                     <p><strong>예시:</strong> {layer.example}</p>
                                     <p><strong>프로토콜:</strong> {layer.protocol}</p>
-                                </div>
+                             </div>
 
-                            </div>
+                        </div>
                         )}
                     </div>
                 ))}

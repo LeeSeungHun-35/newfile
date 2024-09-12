@@ -10,12 +10,12 @@ const Sec = () => {
             <th>용어</th>
             <th>뜻</th>
           </tr>
-          <tr>
+        </thead>
+        <tbody>
+        <tr>
             <td>IP</td>
             <td>~</td>
           </tr>
-        </thead>
-        <tbody>
           <tr>
             <td>백로그 큐</td>
             <td>~</td>

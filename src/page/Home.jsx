@@ -80,8 +80,8 @@ const sections = [
                 <li>Backlog-queue 크기 변경 : 조금이라도 더 크게 설정해준다.(크다고 무조건 좋은 것은 아님)</li><br/>
                 <li>syncookies 기능 활성화 : syncookies 사용 시, SYN을 수신한 서버는 접속 관련 정보를 SYN-ACK에 포함하여 전송 후 <br/>backlog-queue에 정보를 저장하지 않아서 SYN Flooding에서 발생하는 backlog-queue의 취약점 보완 가능하다.</li>
                 </div>
-
             </div> },
+            
             { type: 'text', content: <div className='firewall'>
                 차단 장비 설정<br/><br/>
                 <div className='smaller'>
@@ -92,7 +92,6 @@ const sections = [
         ]
     }
 ];
-
 
 const Main = () => {
     return (
