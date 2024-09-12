@@ -1,4 +1,3 @@
-/* Sec.css */
 .Analys {
     font-family: 'Arial', sans-serif;
     margin: 20px;
@@ -8,14 +7,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 85vh;
     display: flex;
-  }
-  
-  .Analys h1 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #333;
-    
+    flex-direction: column;
+    align-items: center;
   }
   
   .word {
@@ -28,18 +21,19 @@
     padding: 12px;
     text-align: center;
     border-bottom: 1px solid #ddd;
-    width: 30%;
+
   }
   
   .word th {
     background-color: #4CAF50;
     color: white;
     font-size: 18px;
+    width:10%
   }
   
   .word td {
     font-size: 16px;
-    color: #555;
+    color: #474747;
   }
   
   .word tr:nth-child(even) {
@@ -59,12 +53,9 @@
     border: 1px solid #ddd;
     border-radius: 5px;
   }
-
-  .tbody tr {
-    height: 50px;
-  }
-
   
+
+
   @media screen and (max-width: 768px) {
     .word {
       font-size: 14px;
